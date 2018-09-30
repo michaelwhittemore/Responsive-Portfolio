@@ -78,8 +78,11 @@ h3 {
 }
 
 nav {
-  float: right;
-  margin-top: 25px;
+  
+    clear:both;
+    margin-top: 25px;
+    float:left;
+  
 }
 
 nav a {
@@ -216,7 +219,12 @@ input[type=submit] {
   border: 0 none;
 }
 @media (min-width: 640px){
-
+  nav {
+    float: right;
+    margin-top: 25px;
+    clear: none;
+  }
+  
 }
 @media (min-width: 768px){
   
